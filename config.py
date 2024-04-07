@@ -12,14 +12,14 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "MR_NAVEEN720")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "MR_CODER_DARK")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "NOBITA")
+BOT_USERNAME = getenv("BOT_USERNAME", "CODER_MUSIC_BOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "NYKAA MUSIC")
+BOT_NAME = getenv("BOT_NAME", "CODE X MUSIC")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", "NYKAA_ASS")
-EVALOP = list(map(int, getenv("EVALOP", "6132821365").split()))
+EVALOP = list(map(int, getenv("EVALOP", "2117304119").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://xqueenserver:ashif9034@cluster0.z6zufce.mongodb.net/?retryWrites=true&w=majority")
 
@@ -31,10 +31,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001802059275"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001945211096"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6132821365"))
+OWNER_ID = int(getenv("OWNER_ID", "2117304119"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ASIFXQUEEN/ASIFNEWV2MUSICBOTOWN",
+    "https://github.com/CODEXBOTMAN/Codexman",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ARAME9")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BESTODISHA")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+xeryDhybdok5MWI1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MAHAKAL_KI_NAGRI_11")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -95,15 +95,15 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAIM_GWnk-M0fmjxeKC3Mz_Ix2W3X8j9AALAuTEbPqZBVVv57NW85X8BAQADAgADeAADNAQ"
+    "START_IMG_URL", "https://graph.org/file/2404e051a22b7a389fdb6.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/0ad30bd8346bb58fe6d58.jpg"
+    "PING_IMG_URL", "https://graph.org/file/2404e051a22b7a389fdb6.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/7795e58425337d0455e95.jpg"
-STATS_IMG_URL = " https://telegra.ph/file/0ad30bd8346bb58fe6d58.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
+STATS_IMG_URL = " https://graph.org/file/2404e051a22b7a389fdb6.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/2404e051a22b7a389fdb6.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/2404e051a22b7a389fdb6.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
 YOUTUBE_IMG_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
