@@ -1,7 +1,7 @@
 {
-    "name": "MISS QUEEN LAGFREE BOT",
+    "name": " CODERXMUSIC",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAIFmmWC60q-Ny8mfifiU25wQP_bRJx7AAIQvjEb7IMZVAABp8jv_Jx82wEAAwIAA3kAAzME",
+    "logo": "https://github.com/CODEXBOTMAN/Codexman",
     "keywords": [
     "python3",
     "telegram",
@@ -38,7 +38,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
+        "description": "A Pyrogram v2 String Session from @QUEENALLSTRING_BOT on Telegram.",
         "value": "",
         "required": true
       },
