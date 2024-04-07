@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "█████████████▉"
+        bar = "ᴄᴏᴅᴇʀ—————————"
     elif 10 < umm < 20:
-        bar = "ᴍ████████████▉"
+        bar = "—ᴄᴏᴅᴇʀ————————"
     elif 20 <= umm < 30:
-        bar = "ᴍı███████████▉"
+        bar = "——ᴄᴏᴅᴇʀ———————"
     elif 30 <= umm < 40:
-        bar = "ᴍıꜱ██████████▉"
+        bar = "———ᴄᴏᴅᴇʀ——————"
     elif 40 <= umm < 50:
-        bar = "ᴍıꜱꜱ█████████▉"
+        bar = "————ᴄᴏᴅᴇʀ—————"
     elif 50 <= umm < 60:
-        bar = "ᴍıꜱꜱ✯███████▉"
+        bar = "—————ᴄᴏᴅᴇʀ————"
     elif 60 <= umm < 70:
-        bar = "ᴍıꜱꜱ✯ǫ██████▉"
+        bar = "——————ᴄᴏᴅᴇʀ———"
     elif 70 <= umm < 80:
-        bar = "ᴍıꜱꜱ✯ǫᴜᴇ█████▉"
+        bar = "———————ᴄᴏᴅᴇʀ——"
     elif 80 <= umm < 95:
-        bar = "ᴍıꜱꜱ✯𝚀ᴜᴇᴇ████▉"
+        bar = "————————ᴄᴏᴅᴇʀ—"
     else:
-        bar = "⛤𝐌𝐈𝐒𝐒 ⃦⃕𝐐𝐔𝐄𝐄𝐍⛤"
+        bar = "—————————ᴄᴏᴅᴇʀ𝐗ᴍᴜsɪᴄ"
     buttons = [
                 [
             InlineKeyboardButton(
@@ -71,14 +71,14 @@ def stream_markup_timer(_, chat_id, played, dur):
 
                 text="✪ʟɪꜰᴇ✪",
 
-                url=f"https://t.me/BESTODISHA",
+                url=f"https://t.me/MAHAKAL_KI_NAGRI_11",
 
             ),
             InlineKeyboardButton(
 
                 text="✪ᴊᴀɴɴ✪",
 
-                url=f"https://t.me/ARAME9",
+                url=f"https://t.me/+xeryDhybdok5MWI1",
 
             ),
         ],
@@ -111,14 +111,14 @@ def stream_markup(_, chat_id):
 
                 text="✪ʟɪꜰᴇ✪",
 
-                url=f"https://t.me/BESTODISHA",
+                url=f"https://t.me/MAHAKAL_KI_NAGRI_11",
 
             ),
             InlineKeyboardButton(
 
                 text="✪ᴊᴀɴɴ✪",
 
-                url=f"https://t.me/ARAME9",
+                url=f"https://t.me/+xeryDhybdok5MWI1",
 
             ),
         ],
